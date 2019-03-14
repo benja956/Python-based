@@ -4,9 +4,9 @@ t.setup(800,600,0,0)
 t.pencolor("red")
 t.pensize(5)
 #数据读取
-datels = []
+datals = []
 
-f = open("data.txt")
+f = open("D:\Python-based\data.txt")
 for line in f:
      line = line.replace("\n","")
      datals.append(list(map(eval,line.split(","))))
